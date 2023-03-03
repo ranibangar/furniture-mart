@@ -70,7 +70,6 @@ const Header = () => {
   });
 
   const menuToggle = () => menuRef.current.classList.toggle("active__menu");
-
   const navigateToCart = () => {
     navigate("/cart");
   };
