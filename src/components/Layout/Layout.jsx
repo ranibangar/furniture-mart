@@ -8,7 +8,7 @@ import AdminNav from "../../admin/AdminNav";
 import { useLocation } from "react-router-dom";
 
 const Layout = () => {
-  const location = useLocation();
+  const location = useLoc5ation();
   //   const showCart = useSelector((state) => state.cartUi.cartIsVisible);
   return (
     <div>
